@@ -1,10 +1,11 @@
-version: 2.1
+version: 2.2
 
 description: >
   Build images and push them to Azure Container Registry.
+  Modified to split build and push steps.
 
 display:
-  source_url: https://github.com/CircleCI-Public/azure-acr-orb
+  source_url: https://github.com/OleksandrGrabko/azure-acr-orb
 
 orbs:
   azure-cli: circleci/azure-cli@1.1.0
